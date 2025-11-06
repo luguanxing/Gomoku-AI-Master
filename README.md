@@ -2,6 +2,8 @@
 一个五子棋python网页应用，支持手动下棋和使用不同的神经网络模型进行下棋
 
 A Gomoku Python web application that supports manually playing and playing with different neural network models
+<img width="945" height="382" alt="image" src="https://github.com/user-attachments/assets/d666c376-f1e8-4f2e-a5fe-dc729b7702ba" />
+
 
 <br>
 
@@ -38,11 +40,10 @@ A Gomoku Python web application that supports manually playing and playing with 
 <img width="405" height="464" alt="image" src="https://github.com/user-attachments/assets/3cd41171-b537-48ec-ae27-0622b1199c8f" />
 
 
-## 🖼️ System Preview
-<img width="945" height="382" alt="image" src="https://github.com/user-attachments/assets/d666c376-f1e8-4f2e-a5fe-dc729b7702ba" />
-
+<br>
 
 <br>
+
 
 # Startup Instructions
 

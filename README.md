@@ -42,3 +42,16 @@ A Gomoku Python web application that supports manually playing and playing with 
 <img width="945" height="382" alt="image" src="https://github.com/user-attachments/assets/d666c376-f1e8-4f2e-a5fe-dc729b7702ba" />
 
 
+<br>
+
+# Startup Instructions
+
+1. Navigate to the `models_generator` directory and run all the Jupyter Notebook (`.ipynb`) files to generate the models.
+
+2. Copy the generated model files into the `web_server/models` directory.
+
+3. Rename the model files as needed.
+
+4. Navigate to the `web_server` directory and run the Python web application.
+
+> 💡 Make sure all dependencies are installed before running the notebooks and the web server.

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gomoku AI Master</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="shortcut icon" href="static/image/favicon.svg" type="image/x-icon">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <div id="message" class="message"></div>
+    <div id="hint" class="message"></div>
+    <div class="game-container">
+        <h1>Gomoku AI Master</h1>
+        <div id="connection-status">Connecting...</div>
+        <div id="board"></div>
+        <div id="status">Current Player: Black</div>
+        <div id ="controls">
+            AI Model:
+            <select id="ai_model">
+                <option value="nn_model">Neural Network</option>
+                <option value="dnn_model">Deep Neural Network</option>
+                <option value="cnn_model">Convolutional Neural Network</option>
+                <option value="rl_model">Reinforcement Learning</option>
+                <option value="voting">Voting System</option>
+            </select>
+        </div>
+        <div>
+            <button id="restart">Restart Game</button>
+            <button id="ai_run">AI Prediction</button>
+        </div>
+    </div>
+    <script src="static/game.js"></script>
+</body>
+</html>
